@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Luke Cosentino's UX Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a>Luke Cosentino<br>UX Desginer</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">WORK</a></li>
+                    <li><a href="">SKILLS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <section class="heroSection">
+        <div class="text-box">
+            <img src="images/AboutMe.png"></a>
+            <h1>UX DESIGNER ADVOCATING <br> FOR USER NEEDS</h1>
+            <p>Hey! I’m Luke, a User Experience Designer keen to put my recent Monash University UX/UI Bootcamp knowledge to work. I’m driven to effectively research, analyse and design experiences that spark joy.</p>
+            <a href="" class="hero-btn">Contact me</a>
+            <a href="" class="hero-btn">Resume</a>
+        </div>
+    </section>
+        
+    <!-------Projects------>
+
+    <section class="caseStudies">
+        <h2>WORK</h2>
+        <p>My Latest Projects</p>
+
+        <div class="column">
+            <div class="caseStudy-col1">
+                <img src="images/HeadStartHomes-Mobile.png">
+                <h3>Head Start Homes</h3>
+                <p>Redesigning a non-profit organization to increase credibility and transparency, informed by user testing insights and stakeholder consultations.<br>Personal contributions were in user research/analysis, Lo-Fi wireframing and presenting.</p>
+            </div>
+            <div class="caseStudy-col2">
+                <img src="images/DepartmentOfEducation-Mobile.png">
+                <h3>Department of Education</h3>
+                <p>Researching, designing and testing a homepage and navigational redesign of the Department of Education website.<br>Personal contributions were primarily wireframing, prototyping and iteration.</p>
+            </div>
+            <div class="caseStudy-col3">
+                <img src="images/CollabTrav-Mobile.png">
+                <h3>CollabTrav</h3>
+                <p>Individual case study around designing a post-pandemic mobile travel application.<br>Designing a voting system to assist users in making travel decisions when physical meet ups are difficult to organise.</p>
+            </div>
+        </div>
+    </div>
+
+
+        <section class="skills">
+            <h2>MY SKILLS</h2>
+            <p>Luke is capable of designing wireframes, prototyping, using design systems and creating components in Figma. Mood boarding and creating sketch prototypes utilizing InVision and taking advantage of Miro for it’s collaborative capabilities. He practices great design hygiene and file management through proper naming conventions and keeping a clean and tidy Google Drive. Additional experience in using GitHub and VS code with knowledge of HTML and CSS. Helping to make considered design choices in regards to tech capabilities while allowing for more effective communication with developers.</p>
+            <div class="skills-row">
+                <div class="skills-col">
+                    <img src="images/SkillsLogos.png">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="liked-things">
+            <h2>MORE ABOUT ME</h2>
+
+            <div class="row">
+                <div class="liked-things-col">
+                    <img src="images/Gaming.png">
+                    <p>I’m a bit of a gamer. From small indies to the biggest AAA’s, I’ll give anything a play.</p>
+                </div>
+
+                <div class="liked-things-col">
+                    <img src="images/Badminton.png">
+                    <p>I play badminton like I’m playing tennis... in a bad way. 2 hours every second Monday to let some stress out.</p>
+                </div>
+
+                <div class="liked-things-col">
+                    <img src="images/3D-Modeling.png">
+                    <p>When I have spare time, I love creating 3D models from scratch or replicating something from a video game.</p>
+                </div>
+
+                <div class="liked-things-col">
+                    <img src="images/Bowling.png">
+                    <p>Just between you and me, I’m the most inconsistent bowling player. It’s a strike or it’s the gutter.</p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section>
+            <div class="contact-me">
+                <h2>CONTACT ME</h2>
+                <p>I’d love to hear from you to discuss any UX/UI design work I can provide <br> or to talk further regarding my previous studieds and experience.</p>
+                <h1>REACH ME HERE:</h1>
+                <p>(+61)478-417-015 <br> lukecose7483@gmail.com</p>
+                <a href="" class="hero-btn">Contact me</a>
+                <a href="" class="hero-btn">Resume</a>
+            </div>
+
+        </section>
+        
+        <section class="footer">
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">WORK</a></li>
+                    <li><a href="">SKILLS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+        </section>
+
+    </section>
+
+    <!-------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js"></script>
