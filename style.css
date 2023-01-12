@@ -84,7 +84,7 @@ nav img {
     justify-content: center;
     margin: auto;
     text-align: left;
-    padding-top: 10px;
+
 }
 
 .text-box {
@@ -284,6 +284,7 @@ p {
 /*-------- skills -------*/
 
 .skills {
+    width: 80%;
     align-items: center;
     margin: auto;
     text-align: left;
@@ -336,6 +337,11 @@ p {
     text-align: left;
 }
 
+.liked-things {
+   width: 80%;
+   margin: auto;
+}
+
 .liked-things-col img {
     width: 100%;
 }
@@ -346,3 +352,55 @@ p {
     text-align: left;
 }
 
+.contact-me {
+    width: 80%;
+    margin-bottom: 36px;
+}
+
+.footer {
+    background-color: #002C4A;
+    display: flex;
+    padding: 1% 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    flex: 1;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.footer-links ul li a:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.footer-links ul li:hover::after {
+    width: 100%;
+    font-weight: bold;
+}
