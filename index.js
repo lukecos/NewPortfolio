@@ -6,12 +6,14 @@ $(document).ready(function(){
       $(this).css("background-color", "white");
       $(this).css("color", "#002C4A");
       $(this).css("border-radius", "10px");
+      $(".text-box h1").text($(".text-box h1").text().replace("USER NEEDS", "USER + CLIENT NEEDS"));
       $(this).css("transition", ".5s ease");
     },  
     mouseleave: function(){
       $(this).css("background-color", "#002C4A");
       $(this).css("color", "white");
       $(this).css("border-radius", "10px");
+      $(".text-box h1").text($(".text-box h1").text().replace("USER + CLIENT NEEDS", "USER NEEDS"));
     },  
   });
 });
