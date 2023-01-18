@@ -418,7 +418,7 @@ a {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 24px;
     padding: 24px 24px;
     box-sizing: border-box;
 }
@@ -473,6 +473,22 @@ a {
 .HSH_header img {
     align-items: center;
     border-radius: 20px;
+}
+
+.problem {
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.solution {
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 58px;
 }
 
 .steps {
@@ -532,6 +548,16 @@ a {
     align-items: center;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container2 {
+    display: grid;
+    color: black;
+    align-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
     padding: 10px;
 }
