@@ -204,6 +204,11 @@ p {
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: white
+}
+
 .column {
     margin-top: 5%;
     display: flex;
@@ -275,10 +280,6 @@ p {
       display: block;
       margin-bottom: 20px;
     }
-
-    .liked-things-col img {
-        transform: scale(.7);
-    }
 }
 
 /*-------- skills -------*/
@@ -343,7 +344,10 @@ p {
 }
 
 .liked-things-col img {
-    width: 100%;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
 }
 
 .liked-things-col p {
@@ -404,3 +408,147 @@ p {
     width: 100%;
     font-weight: bold;
 }
+
+/*----Head_Start_Homes_Page----*/
+.projectOverview {
+    width: 80%;
+    background-color: whitesmoke;
+    text-align: left;
+    flex-basis: 31%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 24px 24px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectOverview img {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+}
+
+.headline {
+    background-color: #287561;
+    width: 100%;
+    height: 30px;
+}
+
+.headline p {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.HSH_header {
+    width: 80%;
+    border-radius: 10px;
+    background-color: #3AB393;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    margin-top: 36px;
+}
+
+.HSH_header h1 {
+    font-size: 62px;
+}
+
+.HSH_header p {
+    margin: 10px 10px 40px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.HSH_header img {
+    align-items: center;
+    border-radius: 20px;
+}
+
+.steps {
+    display: flex;
+    margin: auto;
+    padding: 24px;
+    width: 80%;
+}
+
+.steps img {
+    display: flex;
+    margin: auto;
+    padding: 24px;
+    width: 400px;
+}
+
+.case-study-heading {
+    text-align: center;
+}
+
+.CEO {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 24px;
+}
+
+.CEO img {
+    display: flex;
+    margin: auto;
+    width: 150px;
+}
+
+.Define h1 {
+    display: flex;
+    margin: 10px 10px 10px;
+}
+
+.Develop h1 {
+    display: flex;
+    margin: 10px 10px 10px;
+}
+
+.Deliver h1 {
+    display: flex;
+    margin: 10px 10px 10px;
+}
+
+.del-img {
+    width: 200px !important;
+}
+
+.grid-container {
+    display: grid;
+    color: black;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.steps h1 {
+    text-align: center;
+    
+}
+
+@media(max-width: 1400px){
+    .grid-container {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+  
+  
